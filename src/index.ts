@@ -5,5 +5,5 @@ const app = express();
 app.use(json);
 
 app.listen(3000, () => {
-	console.log("Auth server on PORT 3000");
+	console.log("Auth server is running on PORT 3000");
 });
